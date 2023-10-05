@@ -3,340 +3,854 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet"/>
+
 </head>
-<body>
-    <table>
-        <tr>
-            <td style = "vertical-align: top">
-                <ul>
-                    <li>
-                        <a href="account/index.html">
-                            Account
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Dashboard
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="courses.html">
-                            Courses
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Calendar
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Inbox
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            History
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Studio
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Commons
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Help
-                        </a>
-                    </li>
-                </ul>
-            </td>
-            <td style = "vertical-align: top">
-                <ul>
-                    <li>
-                        <a href ="home.html">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Modules
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Piazza
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Zoom Meetings
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="assignments/index.html">
-                            Assignments
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Quizzes
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="grades.html">
-                            Grades
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            People
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Panopto Video
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Discussions
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Announcements
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Pages
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Files
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Rubrics
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Outcomes
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Collaborations
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Syllabus
-                        </a>
-                    </li>
-                    <li>
-                        <a href ="#">
-                            Settings
-                        </a>
-                    </li>
+<div class="row">
+    <div class="col-sm-1 bg-black text-white d-none d-md-block" style="text-align: center">
+        <a href="courses.html" class="navigationBarDefault">
+            <img src="../images/northeastern.jpg" width="117" height="100">
+        </a>
+    </div>
+    <div class="col-sm-8 bg-white">
+        <div style="color: red; white-space: nowrap;">
+            <i class="fas fa-bars fa-3x" style="color: black"></i>
+            CS4550.19753.202410
+            <span style="color: black">
+                < Home
+            </span>
+        </div>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-1 bg-black text-white d-none d-md-block" style=" text-align: center">
+        <a href="account/index.html" class="navigationBarDefault">
+            <i class="far fa-user-circle fa-2x"></i>
+            <h5>Account</h5><br>
+        </a>
+        <a href ="dashboard/index.html" class="navigationBarDefault">
+            <i class="fas fa-tachometer-alt fa-2x" style="color: red; margin-bottom: 0"></i>
+            <h5 style="margin: 0"> Dashboard</h5><br>
+        </a>
+        <div class="row" style="background-color: white; text-align: center">
+            <a href ="courses.html" class="navigationBarSelected">
+                <i class="fas fa-book fa-2x" style="color: red"></i>
+                <h4> Courses</h4><br>
+            </a>
+        </div>
 
-                </ul>
-            </td>
-            <td style="vertical-align: top">
-                <button type="button">Collapse All</button>
-                <button type="button">View Progress</button>
-                <select>
-                    <option value = "VAL1">
-                        Publish All
-                    </option>
-                    <option value = "VAL2">
-                        None
-                    </option>
-                </select>
-                <button type = "button">
-                    Module
-                </button>
-                <ul>
-                    <li>
-                        Week 0 - INTRO
-                        <ul>
-                            <li>
-                                LEARNING OBJECTIVES
-                                <ul>
-                                    <li>
-                                        Introduction to the course
-                                    </li>
-                                    <li>
-                                        Learn what is Web Development
-                                    </li>
-                                    <li>
-                                        Creating a development environment
-                                    </li>
-                                    <li>
-                                        Creating a Web Application
-                                    </li>
-                                    <li>
-                                        Getting started with the 1st assignment
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                READING
-                                <ul>
-                                    <li>
-                                        Full Stack Developer - Chapter 1 - Introduction
-                                    </li>
-                                    <li>
-                                        Full Stack Developer - Chapter 2 - Creating User
-                                        <br> Interfaces With HTML
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                SLIDES
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            Introduction to Web Development Links to an external site.
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Creating an HTTP server with Node.js Links to an external site.
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Creating a React Application Links to an external site.
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Week 1 - HTML
-                        <ul>
-                            <li>
-                                LEARNING OBJECTIVES
-                                <ul>
-                                    <li>
-                                        Learn how to create user interfaces using HTML
-                                    </li>
-                                    <li>
-                                        Keep working on Assignment 1
-                                    </li>
-                                    <li>
-                                        Deploy the assignment to Netlify
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                READING
-                                <ul>
-                                    <li>
-                                        Full Stack Developer - Chapter 1 - Introduction
-                                    </li>
-                                    <li>
-                                        Full Stack Developer - Chapter 2 - Creating User
-                                        <br> Interfaces With HTML
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </td>
-            <td style="vertical-align: top">
-                <h2>
-                    Course Status
-                </h2>
-                <button type = "button">
-                    Unpublish
-                </button>
-                <button type = "button">
-                    Published
-                </button>
-                <ul>
-                    <li>
-                        <a href="#">
-                            Import Existing Content
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Import from Commons
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Choose Home Page
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            View Course Stream
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            New Announcement
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            New Analytics
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            View Course Notifications
-                        </a>
-                    </li>
-                </ul>
-                <h2>
-                    Comming Up
-                </h2>
-                <a href="#">
-                    View Calendar
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-calendar-alt fa-2x" style="color: red"></i>
+            <h4>Calendar</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-inbox fa-2x" style="color: red"></i>
+            <h4>Inbox</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="far fa-clock fa-2x" style="color: red;"></i>
+            <h4>History</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-network-wired fa-2x" style="color: red;"></i>
+            <h4>Studio</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-sign-out-alt fa-2x" style="color: red;"></i>
+            <h4>Commons</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-question-circle fa-2x" style="color: red"></i>
+            <h4>Help</h4><br>
+        </a>
+    </div>
+    <div class="col-sm-2 bg-white d-none d-md-block">
+        <ul style="list-style-type: none">
+            <li style="margin-bottom: 10px" class="borderList">
+                <a href ="home.html" style="color: black">
+                    Home
                 </a>
-                <ul>
-                    <li>
-                        <a href="#">
-                            Lecture CS4550.12631.202410 Sep 7 at
-                            <br>11:45am</br>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Modules
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Piazza
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Zoom Meetings
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="assignments/index.html" class="listColorRed">
+                    Assignments
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Quizzes
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="grades.html" class="listColorRed">
+                    Grades
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    People
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Panopto Video
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Discussions
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Announcements
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Pages
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Files
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Rubrics
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Outcomes
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Collaborations
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Syllabus
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Settings
+                </a>
+            </li>
+        </ul>
+    </div>
 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Lecture CS4550.12631.202410 Sep 11 at
-                            <br>
-                                11:45am
-                            </br>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            CS5610 06 SP23 Lecture Sep 11 at 6pm
-                        </a>
-                    </li>
-                </ul>
 
-            </td>
-        </tr>
-    <tbody>
-</tbody>
-</table>
+    <div class="col-sm-6">
+        <button type="button" style="float: right" class="btn-secondary">
+            <i class="fas fa-ellipsis-v"></i>
+        </button>
+        <button type="button" style="float: right" class="btn-danger">
+            - Assignment
+        </button>
+        <button type="button" style="float: right" class="btn-secondary">
+            +Group
+        </button>
+        <hr>
+        <table border="1" width = 85%>
+            <thead>
+            <tr class="styleTable" style="background-color: #ddd">
+                <th style="width: 10%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                            <i class="fas fa-caret-down"></i>
+                        </li>
+                    </ul>
+                </th>
+                <th>
+                    Week 0 - INTRO
+                </th>
+                <th style="width: 20%; vertical-align: center">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <i class="fas fa-plus" style="float: right; margin-right: 20px; vertical-align: center"></i>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="styleTable">
+                <td style="width: 5%; border-right: green">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span>LEARNING OBJECTIVES</span>
+
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Introduction to the Course
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Learn what is Web Development
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                                            Creating a development environment
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Creating a Web Application
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Getting started with the 1st assignment
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span>
+                        READING
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Full Stack Developer - Chapter 1 - Introduction
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span>
+                        SLIDES
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <a href="#">
+                        <i class="fas fa-link" style="color: green; padding-left: 5px"></i>
+                        Introduction to Web Development
+                        <i class="fas fa-external-link-alt" style="padding-left: 2px"></i>
+                    </a>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <a href="#">
+                        <i class="fas fa-link" style="color: green; padding-left: 5px"></i>
+                        Creating an HTTP server with Node.js
+                        <i class="fas fa-external-link-alt" style="padding-left: 2px"></i>
+                    </a>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <a href="#">
+                        <i class="fas fa-link" style="color: green; padding-left: 5px"></i>
+                        Creating a React Application
+                        <i class="fas fa-external-link-alt" style="padding-left: 2px"></i>
+                    </a>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+
+
+            </tbody>
+        </table>
+        <table border="1" width = 85%>
+            <thead>
+            <tr class="styleTable" style="background-color: #ddd">
+                <th style="width: 10%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                            <i class="fas fa-caret-down"></i>
+                        </li>
+                    </ul>
+                </th>
+                <th>
+                    Week 1 - HTML
+                </th>
+                <th style="width: 20%; vertical-align: center">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <i class="fas fa-plus" style="float: right; margin-right: 20px; vertical-align: center"></i>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="styleTable">
+                <td style="width: 5%; border-right: green">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span>LEARNING OBJECTIVES</span>
+
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Learn how to create user interfaces with HTML
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Keep working on assignment 1
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Deploy the assignment to Netlify
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span>
+                        READING
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Full Stack Developer - Chapter 1 - Introduction
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span class="shiftRightIndent">
+                        Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <span>
+                        SLIDES
+                    </span>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <a href="#">
+                        <i class="fas fa-link" style="color: green; padding-left: 5px"></i>
+                        Introduction to HTML and the DOM
+                        <i class="fas fa-external-link-alt" style="padding-left: 2px"></i>
+                    </a>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <a href="#">
+                        <i class="fas fa-link" style="color: green; padding-left: 5px"></i>
+                        Formatting Web content with Headings and Paragraphs
+                        <i class="fas fa-external-link-alt" style="padding-left: 2px"></i>
+                    </a>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%">
+                    <ul class="styleUl">
+                        <li>
+                            <i class="fas fa-grip-vertical"></i>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 75%; horiz-align: center; vertical-align: top">
+                    <a href="#">
+                        <i class="fas fa-link" style="color: green; padding-left: 5px"></i>
+                        Formatting content with Lists and Tables
+                        <i class="fas fa-external-link-alt" style="padding-left: 2px"></i>
+                    </a>
+                </td>
+                <td style="width: 15%;">
+                    <button type="button" style="float: right">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <button type="button" style="float: right; color: green">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                </td>
+            </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-3 d-none d-lg-block">
+
+        Course Status <br>
+        <button type="button" class="btn btn-secondary">
+            <i class="fas fa-ban"></i>
+            Unpublish
+        </button>
+        <button type="button" class="btn btn-success">
+            <i class="fas fa-check-circle"></i>
+            Published
+        </button><br> <br>
+        <button type="button" class="btn btn-secondary">
+            <span><i class="fas fa-file-import"></i></span>
+            Import From Existing Content
+        </button>
+
+        <button type="button" class="btn btn-secondary">
+            <span><i class="fas fa-crosshairs"></i></i></span>
+            Choose Home Page
+        </button>
+        <button type="button" class="btn btn-secondary">
+            <span><i class="fas fa-chart-bar"></i></i></span>
+            View Course Stream
+        </button>
+        <button type="button" class="btn btn-secondary">
+            <span><i class="fas fa-bullhorn"></i></i></span>
+            New Announcement
+        </button><br>
+        <button type="button" class="btn btn-secondary">
+            <span><i class="fas fa-chart-bar"></i></i></span>
+            New Analytics
+        </button>
+        <button type="button" class="btn btn-secondary">
+            <span><i class="fas fa-bell"></i></i></i></span>
+            View Course Notification
+        </button>
+        <h5>To Do</h5>
+        <hr>
+        <span style="color: red">
+            <i class="fas fa-info-circle"></i>
+             Grade A1 - ENV + HTML
+        </span><br>
+        100 pts | Sep 18 at 11:59pm <br><br>
+        <b>
+            Coming Up
+        </b>
+
+        <span style="float: right; margin-right: 5px">
+            <i class="fas fa-calendar-alt"></i>
+            View Calendar
+        </span>
+        <hr>
+        <ul>
+            <li style="list-style: none">
+                <i class="fas fa-calendar-alt"></i>
+                <span style="color: red;">
+                    Lecture
+                </span><br>
+                CS4550.12631.202410
+                Sep 11 at 11:45am
+            </li>
+            <li style="list-style: none">
+                <i class="fas fa-calendar-alt"></i>
+                <span style="color: red;">
+                    CS5610 06 SP23 Lecture
+                </span><br>
+                CS4550.12631.202410
+                Sep 11 at 6pm
+            </li>
+            <li style="list-style: none">
+                <i class="fas fa-calendar-alt"></i>
+                <span style="color: red;">
+                    CS5610 Web development Summer 1 2023 - LECTURE
+                </span><br>
+                CS4550.12631.202410
+                Sep 11 at 7pm
+            </li>
+        </ul>
+
+
+
+    </div>
+</div>
 
 
 
