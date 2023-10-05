@@ -3,297 +3,322 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="../../vendors/bootstrap/css/bootstrap.min.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
+    <link href="../styles.css" rel="stylesheet"/>
+
 </head>
 <body>
-<table>
-    <tr>
-        <td style = "vertical-align: top">
-            <ul>
-                <li>
-                    <a href="../account/index.html">
-                        Account
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Dashboard
-                    </a>
-                </li>
-                <li>
-                    <a href ="../courses.html">
-                        Courses
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Calendar
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Inbox
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        History
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Studio
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Commons
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Help
-                    </a>
-                </li>
-            </ul>
-        </td>
-        <td style = "vertical-align: top">
-            <ul>
-                <li>
-                    <a href ="../home.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Modules
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Piazza
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Zoom Meetings
-                    </a>
-                </li>
-                <li>
-                    <a href ="index.html">
-                        Assignments
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Quizzes
-                    </a>
-                </li>
-                <li>
-                    <a href ="../grades.html">
-                        Grades
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        People
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Panopto Video
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Discussions
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Announcements
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Pages
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Files
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Rubrics
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Outcomes
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Collaborations
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Syllabus
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Settings
-                    </a>
-                </li>
+<div class="row">
+    <div class="col-sm-1 bg-black text-white" style="text-align: center">
+        <a href="courses.html" class="navigationBarDefault">
+            <img src="../../images/northeastern.jpg" width="117" height="100">
+        </a>
+    </div>
+    <div class="col-sm-10 bg-white">
+        <div style="color: red; white-space: nowrap;">
+            <i class="fas fa-bars fa-3x" style="color: black"></i>
+            CS4550.19753.202410
+            <span style="color: black">
+                >
+            </span>
+            Assignments
+            <span style="color: black">
+                > A1 - ENV
+            </span>
+        </div>
 
-            </ul>
-        </td>
-        <td style = "vertical-align: top">
-            <select>
-                <option>
-                    SpeedGrader
-                </option>
-            </select>
-            <hr>
-            <h3>Assignment Name</h3>
-            <input value = "A1 - ENV + HTML">
-            <br>
-            <br>
-            <form id="textarea">
-                <textarea style="vertical-align: top">This is the assignment description.
-                </textarea>
-            </form>
-            <br>
-            <label>Points</label>
-            <br>
-            <input value = "100">
-            <br>
-            <br>
-            <Label>Assignment Group</Label>
-            <br>
-            <select>
-                <option>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-1 bg-black text-white" style=" text-align: center">
+        <a href="../account/index.html" class="navigationBarDefault">
+            <i class="far fa-user-circle fa-2x"></i>
+            <h5>Account</h5><br>
+        </a>
+        <a href ="../dashboard/index.html" class="navigationBarDefault">
+            <i class="fas fa-tachometer-alt fa-2x" style="color: red; margin-bottom: 0"></i>
+            <h5 style="margin: 0"> Dashboard</h5><br>
+        </a>
+        <div class="row" style="background-color: white; text-align: center">
+            <a href ="../courses.html" class="navigationBarSelected">
+                <i class="fas fa-book fa-2x" style="color: red"></i>
+                <h4> Courses</h4><br>
+            </a>
+        </div>
+
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-calendar-alt fa-2x" style="color: red"></i>
+            <h4>Calendar</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-inbox fa-2x" style="color: red"></i>
+            <h4>Inbox</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="far fa-clock fa-2x" style="color: red;"></i>
+            <h4>History</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-network-wired fa-2x" style="color: red;"></i>
+            <h4>Studio</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-sign-out-alt fa-2x" style="color: red;"></i>
+            <h4>Commons</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-question-circle fa-2x" style="color: red"></i>
+            <h4>Help</h4><br>
+        </a>
+    </div>
+    <div class="col-sm-2 bg-white">
+        <ul style="list-style-type: none">
+            <li style="margin-bottom: 10px">
+                <a href ="../home.html" class="listColorRed">
+                    Home
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Modules
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Piazza
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Zoom Meetings
+                </a>
+            </li>
+            <li style="margin-bottom: 10px" class="borderList">
+                <a href ="index.html" style="color: black;">
+                    Assignments
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Quizzes
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="../grades.html">
+                    Grades
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    People
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Panopto Video
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Discussions
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Announcements
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Pages
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Files
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Rubrics
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Outcomes
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Collaborations
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Syllabus
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Settings
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-lg-8">
+        <button class="btn btn-secondary" style="float: right">
+            <i
+                    style="color: white"
+                    class="fa fa-ellipsis-v"
+                    aria-hidden="true"
+            ></i>
+        </button>
+        <span style="float: right; color: green; margin-left: 3px">
+              Published
+        </span>
+        <i class="fas fa-check-circle" style=" float: right; color: green"></i><br>
+        <hr>
+        <h5>Assignment Name</h5>
+        <input value="A1 - ENV + HTML"><br><br>
+        <textarea style="margin-top: 5px; width: 1000px; height: 100px; vertical-align: top; text-align: left" >This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to a GitHub source repository, and then deploying the content to a remote server hosted on Netlify.
+        </textarea>
+        <div style="padding-left: 10%; padding-top: 5%">
+            <span>Points</span>
+            <input value="100" style="width: 600px">
+        </div>
+        <div style="padding-left: 10%; padding-top: 5%">
+            <span>Assignment Group</span>
+            <select class="form-select" style="width: 80%">
+                <option selected>
                     ASSIGNMENTS
                 </option>
             </select>
-            <br>
-            <br>
-            <Label>Display Grade as</Label>
-            <br>
-            <select>
-                <option>
+        </div>
+        <div style="padding-left: 10%; padding-top: 5%">
+            <span>Display Group as</span>
+            <select class="form-select" style="width: 80%">
+                <option selected>
                     Percentage
                 </option>
             </select>
-            <br>
-            <br>
-            <Label>Submission Type</Label>
-            <br>
-            <select>
-                <option>
-                    Online
-                </option>
-            </select>
-            <br>
-            <br>
-            <input type="checkbox" value="COMEDY"
-                   name="check-genre" id="chkbox-comedy1"/>
-            <label>Text Entry</label>
-            <br>
-            <input type="checkbox" value="COMEDY"
-                   name="check-genre" id="chkbox-comedy2"/>
-            <label>Website URL</label>
-            <br>
-            <input type="checkbox" value="COMEDY"
-                   name="check-genre" id="chkbox-comedy3"/>
-            <label>Media Recordings</label>
-            <br>
-            <input type="checkbox" value="COMEDY"
-                   name="check-genre" id="chkbox-comedy4"/>
-            <label>Student Annotations</label>
-            <br>
-            <input type="checkbox" value="COMEDY"
-                   name="check-genre" id="chkbox-comedy5"/>
-            <label>File Uploads</label>
-            <br>
-            <br>
-            <Label>Submission Attents</Label>
-            <br>
-            <select>
-                <option>
-                    Unlimited
-                </option>
-            </select>
-            <br>
-            <br>
-            <label> Group Assignment</label>
-            <br>
-            <input type="checkbox" value="COMEDY"
-                   name="check-genre" id="chkbox-comedy6"/>
-            <label>This is a group assignment</label>
-            <br>
-            <br>
-            <label> Peer Reviews</label>
-            <br>
-            <input type="checkbox" value="COMEDY"
-                   name="check-genre" id="chkbox-comedy7"/>
-            <label>Require Peer Reviews</label>
-            <br>
-            <br>
-            <label>Assign</label>
-            <br>
-            <label>Assign to</label>
-            <br>
-            <input value ="everyone">
-            <br>
-            <br>
-            <label for="text-fields-dob">
-                Due
-            </label>
-            <br>
-            <input type="date"
-                   id="text-fields-dob"
-                   value="2021-01-01"/><br/>
-            <br>
-            <label for="text-fields-dob">
-                Available from
-            </label>
-            <br>
-            <input type="date"
-                   id="text-fields-dob2"
-                   value="2021-01-01"/><br/>
-            <br>
-            <label for="text-fields-dob">
-                Until
-            </label>
-            <br>
-            <input type="date"
-                   id="text-fields-dob3"
-                   value="2021-01-01"/><br/>
-            <br>
-            <a href ="index.html">
-                <button type = "button">
-                    Cancel
-                </button>
-            </a>
-            <a href="index.html">
-                <button type = "button">
-                    Save
-                </button>
-            </a>
+        </div>
+        <div style="padding-left: 10%; padding-top: 5%">
+            <input class="form-check-input" type="checkbox" />
+            <label class="form-check-label"
+            >Do not count this assignment towards the final
+                grade</label>
+        </div>
 
+        <table style="margin: 10px">
+            <tr style="margin: 5px">
+                <td style="margin-right: 3px">
+                    Submission <br> Type
+                </td>
+                <td class="border" style="margin-left: 3px; vertical-align: center">
+                    <ul style="list-style-type: none">
+                        <li>
+                            <select class="form-select" style="width: 50%">
+                                <option selected>
+                                    Online
+                                </option>
+                            </select>
+                        </li>
+                        <li style="margin-top: 10px">
+                            <h5>Online Entry Options</h5>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" checked />
+                            <label class="form-check-label">Text Entry</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" checked />
+                            <label class="form-check-label">Website URL</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" checked />
+                            <label class="form-check-label">Media Recordings</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" />
+                            <label class="form-check-label">Student Annotation</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" />
+                            <label class="form-check-label">File Uploads</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="margin-right: 3px">
+                    Assign
+                </td>
+                <td class="border" style="margin-top: 5px">
+                    <b>
+                        <label>
+                            Assign to
+                        </label>
+                    </b><br>
+                    <input><br>
+                    <b>
+                        <label>
+                           Due
+                        </label>
+                    </b><br>
+                    <input type="date"><br>
 
+                    <table>
+                        <tr>
+                            <td>
+                                <b>
+                                    <label>
+                                        Available From
+                                    </label>
+                                </b><br>
+                                <input type="date">
+                            </td>
+                            <td>
+                                <b>
+                                    <label>
+                                        Until
+                                    </label>
+                                </b><br>
+                                <input type="date">
+                            </td>
+                        </tr>
+                    </table>
 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <button type="button" class="btn-secondary" style="width: 100%">
+                        +Add
+                    </button>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <input class="form-check-input" type="checkbox">
+        <span>Notify Users that this content has changed</span>
+        <a href="index.html">
+            <button type="button" class="btn btn-danger" style="float: right">
+                Save
+            </button>
+        </a>
+        <a href="index.html">
+            <button type="button" class="btn btn-secondary" style="float: right; margin-bottom: 20px">
+                Cancel
+            </button>
+        </a>
+    </div>
 
+</div>
 
-        </td>
-    </tr>
-    <tbody>
-    </tbody>
-</table>
 
 
 

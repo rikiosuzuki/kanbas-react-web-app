@@ -1,0 +1,100 @@
+.borderList {
+    list-style-position: inside;
+    border-left: 3px solid black;
+}
+
+.marginBetweenLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.youtubeLink {
+    text-decoration: none;
+    color: red;
+}
+
+.floatButtonRight{
+    float: right;
+}
+
+.backgroundRed{
+    color: red;
+}
+
+.navigationBarDefault{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    line-height: 10px;
+}
+a.navigationBarDefault:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+    color: red;
+}
+.navigationBarSelected{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+}
+a.navigationBarSelected:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+    color: red;
+}
+
+.listColorRed a:link, a{
+    text-decoration: none;
+    color: red;
+}
+a.listColorRed:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.addMarginSpacing {
+    margin: 5px;
+}
+
+.marginBarAndLinks {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.styleForMinusAssignmentButton {
+    background-color: red;
+    color: white;
+}
+
+
+.styleTable {
+    border-bottom: 1px solid #ddd;
+
+}
+.styleUl li {
+}
+.li.styleUl:before{
+    content: '\1F95E';
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.shiftRightIndent {
+    margin-left: 25px;
+    border-bottom: black;
+}
+
+.cardContainer {
+    margin-bottom: 20px;
+    margin-right: 3%;
+}
+
+.cardIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
