@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "M101",
+    "name": "Introduction to Algorithms",
+    "description": "Basic principles of rocket propulsion and rocket engines.",
+    "course": "CS101"
+  },
+  {
+    "_id": "M102",
+    "name": "Run Times of Algorithms",
+    "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+    "course": "CS101"
+  },
+  {
+    "_id": "M103",
+    "name": "Dynamic Programming",
+    "description": "Principles of rocket nozzle design and performance optimization.",
+    "course": "CS101"
+  },
+  {
+    "_id": "M201",
+    "name": "Introductions And Syllabus",
+    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+    "course": "CS102"
+  },
+  {
+    "_id": "M202",
+    "name": "Lecture Slides",
+    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+    "course": "CS102"
+  },
+  {
+    "_id": "M203",
+    "name": "Labs",
+    "description": "Study of aerodynamic heating and thermal protection systems.",
+    "course": "CS102"
+  },
+  {
+    "_id": "M301",
+    "name": "Resources",
+    "description": "Fundamentals of designing spacecraft structures and materials selection.",
+    "course": "CS103"
+  },
+  {
+    "_id": "M302",
+    "name": "Required Textbook",
+    "description": "Understanding orbital dynamics and mission planning.",
+    "course": "CS103"
+  },
+  {
+    "_id": "M303",
+    "name": "Week 0 - INTRO",
+    "description": "Overview of spacecraft systems and subsystems engineering.",
+    "course": "CS103"
+  }
+]

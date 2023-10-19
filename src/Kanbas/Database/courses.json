@@ -1,0 +1,14 @@
+[
+  { "_id": "CS101",
+    "name": "Algorithms and Data Structures", "number": "CS3000", "startDate": "2023-09-01",
+    "endDate": "2023-12-15", "CSNumber": "202410", "courseIdNumber": "13148"
+  },
+  { "_id": "CS102",
+    "name": "Database Design", "number": "CS3200", "startDate": "2023-09-01", "endDate": "2023-12-15",
+    "CSNumber": "202410", "courseIdNumber": "SEC2AND3"
+  },
+  { "_id": "CS103",
+    "name": "Web Development", "number": "CS4550", "startDate": "2023-09-01", "endDate": "2023-12-15",
+    "CSNumber": "202410", "courseIdNumber": "19753"
+  }
+]
