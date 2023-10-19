@@ -1,0 +1,23 @@
+.navbarStyle{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    width: 80px;
+}
+
+.iconStyle {
+    color: red;
+    font-size: 30px;
+    margin: -14px;
+}
+.linkStyle {
+    text-decoration: none;
+
+}
+
+.fixed-Navigation {
+    position: fixed;
+}
