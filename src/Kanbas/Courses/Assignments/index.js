@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import {Link, useNavigate, useParams} from "react-router-dom";
 import db from "../../Database";
 import {FaEllipsisVertical} from "react-icons/fa6";
 import {FaBook, FaCheckCircle, FaGripVertical, FaPlus} from "react-icons/fa";
@@ -10,15 +10,22 @@ function Assignments() {
     const assignments = db.assignments;
     const courseAssignments = assignments.filter(
         (assignment) => assignment.course === courseId);
+    const navigate = useNavigate();
+    const handleAddAssignment = () =>{
+        navigate(`/Kanbas/Courses/${courseId}/AssignmentEditor`); // Use the correct path for your AssignmentEditor
+    }
     return (
         <div>
             <input placeholder={"Search for Assignment"}/>
             <button className={"btn btn-secondary"} style={{float: "right"}}>
                 <FaEllipsisVertical/>
             </button>
-            <button className={"btn btn-danger"} style={{float: "right"}}>
+            <button className={"btn btn-danger"} style={{float: "right"}} onClick={handleAddAssignment}>
                 + Assignment
             </button>
+            <Link  to={`/Kanbas/Courses/${courseId}/Assignments`} className={"btn btn-secondary"}>
+                + Assignment
+            </Link>
             <button className={"btn btn-secondary"} style={{float: "right"}}>
                 + Group
             </button>
