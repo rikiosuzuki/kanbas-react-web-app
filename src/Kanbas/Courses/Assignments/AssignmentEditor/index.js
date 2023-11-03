@@ -20,7 +20,14 @@ function AssignmentEditor() {
             <h2>Assignment Name</h2>
             <input value={assignment.title}
                    className="form-control mb-2" />
-            <hr/>
+            <textarea placeholder={"New Assignment Description"}>
+            </textarea>
+            <br/>
+            <label>Points</label>
+            <input placeholder={"100"}/>
+            <br/>
+            <label>Assign</label>
+            <input/><br/>
             <Link to={`/Kanbas/Courses/${courseId}/Assignments`}
                   className="btn btn-secondary">
                 Cancel
@@ -28,6 +35,7 @@ function AssignmentEditor() {
             <button onClick={handleSave} className="btn btn-danger me-2">
                 Save
             </button>
+            <hr/>
         </div>
     );
 }
