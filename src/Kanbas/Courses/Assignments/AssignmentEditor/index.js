@@ -27,7 +27,7 @@ function AssignmentEditor() {
             <input placeholder={"100"}/>
             <br/>
             <label>Assign</label>
-            <input/><br/>
+            <input/><br/>d
             <Link to={`/Kanbas/Courses/${courseId}/Assignments`}
                   className="btn btn-secondary">
                 Cancel
