@@ -7,6 +7,9 @@ import store from "./store";
 import {useEffect, useState} from "react";
 import db from "./Database";
 import axios from "axios";
+import Signin from "./users/signin";
+import Account from "./users/account";
+import UserTable from "./users/table";
 
 function Kanbas() {
     const [courses, setCourses] = useState(db.courses);
@@ -72,6 +75,14 @@ function Kanbas() {
                         } />
                         <Route path="Courses/:courseId/*" element={
                             <Courses courses={courses}/>} />
+                        <Route path="/signin" element={<Signin />} />
+                        <Route path="/account" element={<Account />} />
+                        <Route path="/admin/users" element={<UserTable />} />
+                        <Route path="/account/:id" element={<Account />} />
+
+
+
+
                     </Routes>
 
                 </div>
