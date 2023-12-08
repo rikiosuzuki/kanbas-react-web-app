@@ -3,194 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet"/>
+
 </head>
 <body>
-<table>
-    <tr>
-        <td style = "vertical-align: top">
-            <ul>
-                <li>
-                    <a href="account/index.html">
-                        Account
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Dashboard
-                    </a>
-                </li>
-                <li>
-                    <a href ="courses.html">
-                        Courses
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Calendar
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Inbox
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        History
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Studio
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Commons
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Help
-                    </a>
-                </li>
-            </ul>
-        </td>
-        <td style = "vertical-align: top">
-            <ul>
-                <li>
-                    <a href ="home.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Modules
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Piazza
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Zoom Meetings
-                    </a>
-                </li>
-                <li>
-                    <a href ="assignments/index.html">
-                        Assignments
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Quizzes
-                    </a>
-                </li>
-                <li>
-                    <a href ="grades.html">
-                        Grades
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        People
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Panopto Video
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Discussions
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Announcements
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Pages
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Files
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Rubrics
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Outcomes
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Collaborations
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Syllabus
-                    </a>
-                </li>
-                <li>
-                    <a href ="#">
-                        Settings
-                    </a>
-                </li>
+<div class="row">
+    <div class="col-sm-1 bg-black text-white" style="text-align: center">
+        <a href="courses.html" class="navigationBarDefault">
+            <img src="../images/northeastern.jpg" width="117" height="100">
+        </a>
+    </div>
+    <div class="col-sm-6 bg-white">
+        <div style="color: red; white-space: nowrap;">
+            <i class="fas fa-bars fa-3x" style="color: black"></i>
+            CS4550.19753.202410
+            <span style="color: black">
+                < Grades
+            </span>
+        </div>
 
-            </ul>
-        </td>
-        <td style = "vertical-align: top">
-            <select>
-                <option value = "VAL1">
-                    Gradebook
-                </option>
-            </select>
-            <button type = "button"> Import </button>
-            <select>
-                <option value = "VAL2">
-                    Export
-                </option>
-            </select>
-            <button type = "button"> Configure </button>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-1 bg-black text-white" style=" text-align: center">
+        <a href="account/index.html" class="navigationBarDefault">
+            <i class="far fa-user-circle fa-2x"></i>
+            <h5>Account</h5><br>
+        </a>
+        <a href ="dashboard/index.html" class="navigationBarDefault">
+            <i class="fas fa-tachometer-alt fa-2x" style="color: red; margin-bottom: 0"></i>
+            <h5 style="margin: 0"> Dashboard</h5><br>
+        </a>
+        <div class="row" style="background-color: white; text-align: center">
+            <a href ="courses.html" class="navigationBarSelected">
+                <i class="fas fa-book fa-2x" style="color: red"></i>
+                <h4> Courses</h4><br>
+            </a>
+        </div>
 
-            <h3> Student Names</h3>
-            <input placeholder="Search Students">
-            <h3> Assignment Names </h3>
-            <input placeholder="Search Assignments">
-            <br>
-            <br>
-            <button type = "button"> Apply Filters </button>
-            <br>
-            <br>
-            <table border = "1" width = "100%">
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-calendar-alt fa-2x" style="color: red"></i>
+            <h4>Calendar</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-inbox fa-2x" style="color: red"></i>
+            <h4>Inbox</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="far fa-clock fa-2x" style="color: red;"></i>
+            <h4>History</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-network-wired fa-2x" style="color: red;"></i>
+            <h4>Studio</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-sign-out-alt fa-2x" style="color: red;"></i>
+            <h4>Commons</h4><br>
+        </a>
+        <a href ="#" class="navigationBarDefault">
+            <i class="fas fa-question-circle fa-2x" style="color: red"></i>
+            <h4>Help</h4><br>
+        </a>
+    </div>
+    <div class="col-sm-2 bg-white">
+        <ul style="list-style-type: none">
+            <li style="margin-bottom: 10px">
+                <a href ="home.html" class="listColorRed">
+                    Home
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Modules
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Piazza
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Zoom Meetings
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="assignments/index.html" class="listColorRed">
+                    Assignments
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Quizzes
+                </a>
+            </li>
+            <li style="margin-bottom: 10px" class="borderList">
+                <a href ="grades.html" style="color: black">
+                    Grades
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    People
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Panopto Video
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Discussions
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Announcements
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Pages
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Files
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Rubrics
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Outcomes
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Collaborations
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Syllabus
+                </a>
+            </li>
+            <li style="margin-bottom: 10px">
+                <a href ="#" class="listColorRed">
+                    Settings
+                </a>
+            </li>
+        </ul>
+
+
+    </div>
+    <div class="col-sm-3 bg-white">
+
+        <table width="250%">
+            <thead>
+            <tr>
+                <th>
+
+                </th>
+                <th>
+                    <button type="button" class="btn btn-secondary">
+                        <i class="fas fa-file-import"></i>
+                        Import
+                    </button>
+                    <select class="btn btn-secondary">
+                        <option>
+                            <i class="fas fa-file-export"></i>
+                            Export
+                        </option>
+
+                    </select>
+                    <button type="button" class="btn btn-secondary">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                </th>
+            </tr>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <h5>Assignment Names</h5>
+                    <select class="form-select">
+                        <option selected>
+                            Assignment Names
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <h5>Student Names</h5>
+                    <select class="form-select">
+                        <option selected>
+                            Student Names
+                        </option>
+
+                    </select>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+        <button type="button" class="btn btn-secondary">
+            Apply Filters
+        </button>
+        <br>
+        <div class="wd-border-fat">
+            <table border = "1" width = "250%" style="margin-top: 10px">
                 <thead>
                 <tr>
                     <th> Student Name</th>
-                    <th>
+                    <th style="text-align: center">
                         A1 SETUP
                         <br> Out of 100
                     </th>
-                    <th>
+                    <th style="text-align: center">
                         A2 HTML
                         <br> Out of 100
                     </th>
-                    <th>
+                    <th style="text-align: center">
                         A3 CSS
                         <br> Out of 100
                     </th>
-                    <th>
+                    <th style="text-align: center">
                         A4 BOOTSTRAP
                         <br> Out of 100
                     </th>
@@ -208,7 +257,9 @@
                     <td>Princes Leia</td>
                     <td  style = "text-align: center">98</td>
                     <td  style = "text-align: center"> 80</td>
-                    <td style = "text-align: center">87 </td>
+                    <td style = "text-align: center">
+                        <input value="74">
+                    </td>
                     <td style = "text-align: center">86</td>
                 </tr>
                 <tr>
@@ -228,14 +279,11 @@
                 </tbody>
             </table>
 
-        </td>
-    </tr>
-    <tbody>
-    </tbody>
-</table>
+        </div>
 
+    </div>
 
-
+</div>
 
 </body>
 </html>
